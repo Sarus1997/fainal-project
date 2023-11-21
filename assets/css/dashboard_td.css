@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .card-header {
+        font-size: 1.2rem;
+    }
+
+    .table th,
+    .table td {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header {
+        font-size: 1rem;
+    }
+
+    .table th,
+    .table td {
+        font-size: 0.7rem;
+    }
+}
+
+
+.card-body {
+    overflow-x: auto;
+    /* Enable horizontal scrolling for the card-body */
+}
+
+/* Prevent text wrapping in table header and cells */
+.table thead th,
+.table tbody td {
+    white-space: nowrap;
+}
+
+/* Set a minimum width for table cells */
+.table thead th,
+.table tbody td {
+    min-width: 150px;
+    /* Adjust this width as needed */
+}
+
+/* Apply CSS to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid #009786;
+}
+.card-header {
+    background: #009786;
+    color: aliceblue;
+}
+
+.card-body {
+    background: hsl(173, 100%, 94%);
+}

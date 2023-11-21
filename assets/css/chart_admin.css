@@ -1,0 +1,119 @@
+#piechartTimelyResponse,
+#barchartSubmitted,
+#chart2,
+#chart3,
+#chart4,
+#chart5,
+#chart6,
+#chart7,
+#chart8,
+#chart9,
+#chart10,
+#chart11 {
+    text-align: left;
+    width: 100%;
+    height: 270px;
+}
+
+#overall_status {
+    width: 100%;
+}
+
+.form-control {
+    background: linear-gradient(#faedff, #fff5e4, #e8faff, #e7ffe6);
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: rgb(255, 196, 0);
+}
+
+.checked2 {
+    color: rgb(188, 201, 67);
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-6 {
+    width: 41.5%;
+    height: 18px;
+    background-color: #9292D1;
+}
+
+.bar-5 {
+    width: 73.9%;
+    height: 18px;
+    background-color: #42bd41;
+}
+
+.bar-4 {
+    width: 35.6%;
+    height: 18px;
+    background-color: #0277bd;
+}
+
+.bar-3 {
+    width: 21.7%;
+    height: 18px;
+    background-color: #81d4fa;
+}
+
+.bar-2 {
+    width: 78.4%;
+    height: 18px;
+    background-color: #ffe082;
+}
+
+.bar-1 {
+    width: 44.2%;
+    height: 18px;
+    background-color: #f69988;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+    .side,
+    .middle {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
