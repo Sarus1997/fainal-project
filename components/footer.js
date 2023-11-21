@@ -13,10 +13,10 @@ this.innerHTML = ` <!-- ======= Footer ======= -->
           <a href="index.html" class="logo d-flex align-items-center">
             <span>ประเมินร้านอาหาร</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>ระบบประเมินร้านอาหารออนไลน์ศูนย์อาหารช่อประดู่.</p>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="globe2"><i class="bi bi-globe2"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://am.wu.ac.th/" class="globe2"><i class="bi bi-globe2"></i></a>
+            <a href="https://www.facebook.com/walailakPMC/" class="facebook"><i class="bi bi-facebook"></i></a>
           </div>
         </div>
 
